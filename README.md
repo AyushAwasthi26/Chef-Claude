@@ -1,8 +1,8 @@
 
-# 👨‍🍳 CHEF CLAUDE — Your AI Recipe Companion
+# 👨‍🍳 Bawarch-AI — Your AI Recipe Companion
 
 Ever been home alone and hungry, staring at a few random ingredients not knowing what to cook?  
-**Chef-Claude** has got your back! 🍲  
+**Bawarch-AI** has got your back! 🍲  
 Just tell it the ingredients you have, and within seconds, it serves you a complete recipe — straight from your kitchen pantry to your plate.
 
 ---
@@ -29,10 +29,17 @@ Just tell it the ingredients you have, and within seconds, it serves you a compl
 
 ## 📸 Screenshots
 
-<img width="1297" height="351" alt="image" src="https://github.com/user-attachments/assets/0b054115-a9e0-4645-a1d3-b61044cd547e" />
-<img width="1394" height="963" alt="image" src="https://github.com/user-attachments/assets/e2cc0578-4f8b-4047-90ed-d38b9fa09f09" />
-<img width="1898" height="1079" alt="image" src="https://github.com/user-attachments/assets/4bfbea3d-0f46-4874-a7d8-7baf9cb81709" />
-<img width="1897" height="1079" alt="image" src="https://github.com/user-attachments/assets/4cb7e6db-181d-46bf-9a57-3f46f4918cc2" />
+<img width="1298" height="378" alt="image" src="https://github.com/user-attachments/assets/88426e4e-8c82-4d11-a649-71d636198060" />
+<img width="1899" height="974" alt="image" src="https://github.com/user-attachments/assets/658b7fef-456a-4065-8c3b-6e6f24045064" />
+<img width="1899" height="977" alt="image" src="https://github.com/user-attachments/assets/4dd39cdd-83d8-4db0-838f-d495b256a740" />
+<img width="1893" height="1079" alt="image" src="https://github.com/user-attachments/assets/f0243fdc-52bc-4e0a-a846-96882cf8c0e3" />
+<img width="1503" height="968" alt="image" src="https://github.com/user-attachments/assets/275c770e-4398-43df-bec8-6ea40ff4a32d" />
+<img width="1541" height="294" alt="image" src="https://github.com/user-attachments/assets/b2a808a2-2d4a-4569-9f9e-f90e823bc8b3" />
+
+
+
+
+
 
 
 
@@ -43,13 +50,13 @@ Just tell it the ingredients you have, and within seconds, it serves you a compl
 
 ## 🌟 About the Project
 
-**Chef-Claude** is an AI-driven recipe generation web app built with **React** and **Vite**.  
+**Bawarch-AI** is an AI-driven recipe generation web app built with **React** and **Vite**.  
 It simplifies your cooking experience — just input a list of ingredients you have, and the app uses **Gemini AI** to create a personalized recipe in real-time.
 
 Here’s how it works:
 
 1. 🥬 You add all the ingredients you currently have at home.  
-2. 🤖 Chef-Claude uses **Gemini AI** to think like a real chef and generate a unique recipe.  
+2. 🤖 Bawarch-AI uses **Gemini AI** to think like a real chef and generate a unique recipe.  
 3. 📜 The recipe is beautifully formatted and displayed in an easy-to-read layout with markdown rendering.  
 4. 🔄 You can clear everything and start again anytime.
 
@@ -77,7 +84,7 @@ Here’s how it works:
 
 ## 🚀 Getting Started
 
-To get a copy of **Chef-Claude** up and running locally:
+To get a copy of **Bawarch-AI** up and running locally:
 
 ### Prerequisites
 Make sure you have **Node.js** and **npm** installed on your machine.
@@ -87,13 +94,13 @@ Make sure you have **Node.js** and **npm** installed on your machine.
 Clone the repository:
 
 ```bash
-git clone https://github.com/AyushAwasthi26/Chef-Claude.git
+git clone https://github.com/AyushAwasthi26/Bawarch-AI.git
 ````
 
 Navigate into the project directory:
 
 ```bash
-cd Chef-Claude
+cd Bawarch-AI
 ```
 
 Install dependencies:
