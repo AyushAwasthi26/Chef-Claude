@@ -413,14 +413,17 @@ main {
     width: 100%;
     height: 2px;
     background-color: #E99031;
-    transform: scaleX(0);
     transform-origin: left;
-    transition: transform 0.3s ease;
+    animation: underlinePulse 3s ease-in-out infinite;
 }
 
-.recipe-section-heading:hover::after {
-    transform: scaleX(1);
+/* Keyframes for infinite underline animation */
+@keyframes underlinePulse {
+    0% { transform: scaleX(0.15); opacity: 0.4; }
+    50% { transform: scaleX(1); opacity: 1; }
+    100% { transform: scaleX(0.15); opacity: 0.4; }
 }
+
 
 
 /* --- RECIPE RESET BUTTON STYLES --- */

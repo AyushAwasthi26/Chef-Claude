@@ -98,7 +98,7 @@ export default function Body() {
         <section className="recipe-section" ref={recipeSection}>
           <h2 className="recipe-section-heading">Chef Claude's Recommendation:</h2>
           
-          {isLoading && <p>Cooking up one delicious idea... 🍳</p>}
+          {isLoading && <p>Cooking up one delicious idea... 👨🏻‍🍳</p>}
           
           {error && <p className="error-message">Error: {error}</p>}
           

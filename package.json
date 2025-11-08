@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean": "powershell Remove-Item dist -Recurse -Force",
+    "rebuild": "npm run clean && npm run build"
   },
   "dependencies": {
     "@google/genai": "^1.27.0",
