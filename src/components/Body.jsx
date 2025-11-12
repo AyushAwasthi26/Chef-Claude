@@ -1,8 +1,10 @@
 import React, { useState, useCallback, useEffect, useRef } from "react";
 import IngredientsList from "./IngredientsList";
 import RecipeDisplay from "./RecipeDisplay"; 
-import { getRecipeFromGemini } from "../ai"; 
+import { getRecipeFromGemini, getRecipeFromGroq, getRecipeFromMistral } from "../ai";
 
+// USE the GROQ api knowing the public can see and use this API, just use in the private test environment
+// USE the GEMINI api knowing the public can see and use this API, just use GROQ in the private test environment
 export default function Body() {
   const [ingredients, setIngredients] = useState([]);
   const [recipeShown, setRecipeShown] = useState(false); 
