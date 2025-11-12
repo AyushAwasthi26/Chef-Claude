@@ -97,6 +97,7 @@ main {
 .add-ingredient-form > button::before {
   content: "+";
   margin-right: 5px;
+  margin-left:5px;
 }
 
 .ingredients-box-wrapper {
@@ -477,4 +478,18 @@ main {
 
 .recipe-reset-button:hover::before {
     transform: rotate(180deg);
+}
+
+/* style.css */
+.addButton::after {
+  content: "Add Ingredient";
+  padding: 2 ;
+}
+
+@media (max-width: 700px) {
+  .addButton::after {
+    content: "Add";
+    font-size: 0.875rem;
+    padding-inline: 10px;
+  }
 }

@@ -83,7 +83,7 @@ export default function Body() {
           aria-label="Add ingredient"
           name="ingredient"
         />
-        <button>Add ingredient</button>
+        <button class='addButton'></button>
       </form>
       
       <IngredientsList
@@ -91,6 +91,7 @@ export default function Body() {
         resetIngredients={resetIngredients}
         toggleRecipeShown={toggleRecipeShown}
         deleteIngredient={deleteIngredient}
+        
       />
       
       {/* Conditional recipe display */}
