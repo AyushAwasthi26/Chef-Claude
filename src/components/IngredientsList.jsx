@@ -16,6 +16,13 @@ export default function IngredientsList(props) {
       {props.ingredients.length > 0 && (
         <>
             <h2 className="ingredients-heading">Ingredients on hand:</h2>
+              { props.ingredients.length <4 ? <div className='alert' style={
+                {
+                  color: '#e18a18ff',
+                  fontWeight: '600',
+                  fontSize: '14px',
+                }
+              }>Enter at least 4 ingredients</div> : ''}
             <div className="ingredients-box-wrapper">
             <div className="ingredients-container">
                 <ul>{ingredientsListItems}</ul>
