@@ -97,7 +97,7 @@ export default function Body() {
       {/* Conditional recipe display */}
       {recipeShown && (
         <section className="recipe-section" ref={recipeSection}>
-          <h2 className="recipe-section-heading">Chef Claude's Recommendation:</h2>
+          <h2 className="recipe-section-heading">Bawarch-AI's Recommendation:</h2>
           
           {isLoading && <p>Cooking up one delicious idea... 👨🏻‍🍳</p>}
           
